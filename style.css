@@ -1,0 +1,76 @@
+/* body {
+  background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/228388224_1257317024698543_5359068878446118312_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=a26aad&_nc_ohc=mUtp018ucFIAX9O2ABJ&_nc_ht=scontent-atl3-1.xx&oh=17aecf90121afcdb9a497f834ff00b2a&oe=6137DBE7");
+} */
+
+.hero-image {
+  background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/228388224_1257317024698543_5359068878446118312_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=a26aad&_nc_ohc=mUtp018ucFIAX9O2ABJ&_nc_ht=scontent-atl3-1.xx&oh=17aecf90121afcdb9a497f834ff00b2a&oe=6137DBE7");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parking {
+  width: 47%;
+  background-color: white;
+  opacity: 90%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
+  max-width: fit-content;
+  position: relative;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: large;
+}
+.maps {
+  border-radius: 3px;
+  width: 45%;
+  background-color: black;
+  opacity: 95%;
+  color: whitesmoke;
+  margin: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .maps {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .parking {
+    width: 80%;
+    opacity: 92%;
+    font-size: 1.5rem;
+  }
+}
+
+/* @media (max-width: 600px) {
+    .hero-image {
+      opacity: 80%;
+      filter: brightness(50%);
+    }
+  } */
