@@ -129,8 +129,8 @@ p {
 
 @media (max-width: 600px) {
   .parking {
-    width: 90%;
-    opacity: 92%;
+    width: 95%;
+
     font-size: 1.5rem;
   }
 }
