@@ -3,7 +3,7 @@
 } */
 
 .hero-image {
-  background-image: url("./IMG_0728 (1).JPG");
+  background-image: url("./IMG_0728\ \(1\).jpg");
   background-color: #cccccc;
   height: 1000px;
   background-position: center;
@@ -12,7 +12,6 @@
   position: relative;
   opacity: 100%;
   background-color: whitesmoke;
-  z-index: -1;
 }
 
 .parking {
