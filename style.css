@@ -16,7 +16,7 @@
 }
 
 .pic {
-  background-image: url(./Blur4.jpg);
+  background-image: url(./Blur5.jpg);
   background-size: cover;
   color: black;
 }
@@ -75,12 +75,12 @@
 }
 
 .header {
-  color: black;
+  color: white;
   font-size: 4.5rem;
   text-shadow: white;
 }
 .words {
-  color: black;
+  color: white;
   font-size: 2.5rem;
   font-weight: bold;
 }
