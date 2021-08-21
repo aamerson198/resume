@@ -4,8 +4,9 @@
 
 .hero-image {
   background-image: url("./IMG_0728\ \(1\).jpg");
+
   background-color: #cccccc;
-  height: 1000px;
+  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,6 +15,11 @@
   background-color: whitesmoke;
 }
 
+.pic {
+  background-image: url(./Blur4.jpg);
+  background-size: cover;
+  color: black;
+}
 .parking {
   width: 60%;
   background-color: white;
@@ -69,11 +75,14 @@
 }
 
 .header {
-  color: white;
+  color: black;
+  font-size: 4.5rem;
+  text-shadow: white;
 }
 .words {
-  color: white;
-  font-size: 2rem;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 .video-container {
   position: relative;
@@ -130,16 +139,17 @@ p {
 @media (max-width: 600px) {
   .parking {
     width: 95%;
+    height: 70%;
 
     font-size: 1.5rem;
   }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .words {
     color: white;
   }
-}
+} */
 
 .navvy {
   font-family: "Poppins", sans-serif;
