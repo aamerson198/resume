@@ -130,6 +130,14 @@ p {
 }
 
 @media (max-width: 600px) {
+  .pic {
+    background-image: url(./Blursm2.jpg);
+    background-size: cover;
+    color: black;
+  }
+}
+
+@media (max-width: 600px) {
   .maps {
     width: 100%;
     font-size: 1.5rem;
