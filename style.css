@@ -1,18 +1,16 @@
-/* body {
-  background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/228388224_1257317024698543_5359068878446118312_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=a26aad&_nc_ohc=mUtp018ucFIAX9O2ABJ&_nc_ht=scontent-atl3-1.xx&oh=17aecf90121afcdb9a497f834ff00b2a&oe=6137DBE7");
-} */
-
+body {
+  background-color: rgb(41, 46, 45);
+}
 .hero-image {
   background-image: url("./Amster2.jpeg");
 
   background-color: #cccccc;
-  height: 800px;
+  height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  opacity: 100%;
-  background-color: whitesmoke;
+
+  background-color: white;
 }
 
 .pic {
@@ -32,54 +30,7 @@
   padding: 10px;
   color: #f1f1f1;
 }
-/* The sidebar menu */
-.sidenav {
-  margin-top: 10px;
-  float: right;
-  height: 500px; /* Full-height: remove this if you want "auto" height */
-  width: 190px; /* Set the width of the sidebar */
-  /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
 
-  background-color: rgb(15, 15, 15); /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  width: auto;
-}
-
-/* The navigation menu links */
-.sidenav a {
-  text-align: right;
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: rgb(233, 225, 225);
-
-  display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-width: 650px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
-.header {
-  color: white;
-  font-size: 4.5rem;
-  text-shadow: white;
-}
 .words {
   color: white;
   font-size: 2.5rem;
@@ -118,16 +69,27 @@ h3 {
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-size: large;
+  margin: 15px;
 }
-.maps {
-  border-radius: 3px;
-  width: 45%;
-  background-color: black;
-  opacity: 95%;
-  color: whitesmoke;
-  margin: 5px;
+
+.about {
+  background-color: rgb(34, 39, 33);
+  height: 550px;
+  width: 60%;
+
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.about-image {
+  float: right;
+
+  top: -150px;
+  margin: 25px;
   padding: 10px;
   position: relative;
+  border-radius: 25px;
 }
 
 @media (max-width: 600px) {
@@ -154,21 +116,8 @@ p {
   }
 }
 
-/* @media (max-width: 600px) {
-  .words {
-    color: white;
-  }
-} */
-
 .navvy {
   font-family: "Montserrat", sans-serif;
   font-family: "Rubik", sans-serif;
   font-size: larger;
 }
-
-/* @media (max-width: 600px) {
-    .hero-image {
-      opacity: 80%;
-      filter: brightness(50%);
-    }
-  } */
