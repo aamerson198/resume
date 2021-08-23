@@ -74,18 +74,19 @@ p {
 
 .about2 {
   background-color: rgb(34, 39, 33);
-  height: 550px;
 
-  margin: 10px;
+  margin: 50px;
   padding: 10px;
   color: white;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .about-image2 {
-  float: right;
+  float: left;
   margin: 10px;
   border-radius: 20px;
+  height: 400px;
 }
 
 @media (max-width: 600px) {
@@ -109,4 +110,12 @@ p {
   font-family: "Montserrat", sans-serif;
   font-family: "Rubik", sans-serif;
   font-size: larger;
+}
+
+.footer {
+  height: 50px;
+  background-color: rgb(34, 39, 33);
+  color: gray;
+  text-align: center;
+  padding: 0.5px 0;
 }
