@@ -106,6 +106,12 @@ p {
   }
 }
 
+@media (max-width: 600px) {
+  .about2 {
+    width: 90%;
+  }
+}
+
 .navvy {
   font-family: "Montserrat", sans-serif;
   font-family: "Rubik", sans-serif;
