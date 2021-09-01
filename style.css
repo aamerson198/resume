@@ -83,6 +83,15 @@ p {
   overflow: hidden;
 }
 
+.aboutP {
+  vertical-align: middle;
+  line-height:30px;
+  margin-left: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  
+
+}
 .about-image2 {
   float: left;
   margin: 10px;
