@@ -1,5 +1,5 @@
 body {
-  background-color: #241c17;
+  background-color: #a79457;
 }
 .hero-image {
   background-image: url("./Amster2.jpeg");
@@ -14,7 +14,7 @@ body {
 }
 
 .pic {
-  background-image: url(./Blur5.jpg);
+  background-image: url(./AmersonLogo2.jpg);
   background-size: cover;
   background-color: rgb(49, 51, 49);
 }
@@ -85,12 +85,10 @@ p {
 
 .aboutP {
   vertical-align: middle;
-  line-height:30px;
+  line-height: 30px;
   margin-left: 20px;
   display: table-cell;
   vertical-align: middle;
-  
-
 }
 .about-image2 {
   float: left;
@@ -99,20 +97,25 @@ p {
   height: 400px;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 750px) {
   .pic {
-    background-image: url(./Blursm5.jpg);
+    background-image: url(./Lighthouse3.jpg);
     background-size: cover;
     color: black;
   }
-}
+} */
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .parking {
     width: 90%;
     height: 35%;
 
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
   }
 }
 
